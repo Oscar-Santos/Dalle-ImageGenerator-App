@@ -1,4 +1,5 @@
 
+
 const express = require('express');
 const cors = require('cors');
 // const fetch = require('node-fetch');
@@ -28,7 +29,7 @@ app.post('/api/generate-images', async (req, res) => {
 
   try {
     const response = await fetch('https://api.openai.com/v1/images/generations', options);
-    console.log(response)
+    // console.log(response)
     const data = await response.json();
     res.json(data);
   } catch (error) {
@@ -40,3 +41,9 @@ app.post('/api/generate-images', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+
+
+
+
+
