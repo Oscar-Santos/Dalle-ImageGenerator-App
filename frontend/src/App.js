@@ -14,8 +14,9 @@ const App = () => {
     const size = '1024x1024';
 
     try {
-      const response = await fetch('http://localhost:3001/api/generate-images', {
-        // const response = await fetch('https://dalle-b3o3.onrender.com/api/generate-images', {
+      // const response = await fetch('http://localhost:3001/api/generate-images', {
+      const response = await fetch('https://dalle-48al.onrender.com/api/generate-images', {
+  
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
