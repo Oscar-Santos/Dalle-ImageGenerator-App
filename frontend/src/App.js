@@ -119,6 +119,7 @@ const App = () => {
     <div>
       <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" id="visual" viewBox="0 0 900 600" width="100%" height="100%" version="1.1">
         {/* SVG paths and shapes go here */}
+      
       </svg>
 
       <header>
