@@ -15,7 +15,7 @@ const App = () => {
 
     try {
       // const response = await fetch('http://localhost:3001/api/generate-images', {
-      const response = await fetch(`https://dalle-48al.onrender.com/api/generate-images`, {
+      const response = await fetch('https://dalle-48al.onrender.com/api/generate-images', {
   
         method: 'POST',
         headers: {
