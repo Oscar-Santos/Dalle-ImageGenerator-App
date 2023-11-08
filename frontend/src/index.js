@@ -1,12 +1,12 @@
 
-
 import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App'; // Make sure the import path is correct
+import App from './App';
 
-ReactDOM.render(<App />, document.getElementById('root')); // Make sure 'root' is the correct ID of your target element
-
+const root = document.getElementById('root');
+const reactRoot = ReactDOM.createRoot(root);
+reactRoot.render(<App />);
 
 
 
